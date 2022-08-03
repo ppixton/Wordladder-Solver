@@ -88,7 +88,7 @@ wordlist = get_wordlist()
 root =tk.Tk()
 root.geometry("300x150")
 root.resizable(False,False)
-root.title("Enter Words")
+root.title("Enter two five letter words and see the word ladder!")
 
 startword = tk.StringVar()
 endword = tk.StringVar()
